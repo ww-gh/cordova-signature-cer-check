@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-signature-cer-check" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-signature-cer-check" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordova-signature-cer-check</name>
-    <js-module name="SignatureCerCheck" src="www/cordova-signature-cer-check.js">
+    <js-module name="cordova-signature-cer-check" src="www/SignatureCerCheck.js">
         <clobbers target="cordova.plugins.SignatureCerCheck"/>
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="SignatureCerCheck">
                 <param name="android-package"
-                       value="com.easyman.plugin.SignatureCerCheck"/>
+                value="com.easyman.plugin.SignatureCerCheck"/>
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"/>
         <source-file src="src/android/com/easyman/plugin/SignatureCerCheck.java"
-                     target-dir="src/com/easyman/plugin"/>
+        target-dir="src/com/easyman/plugin"/>
     </platform>
 </plugin>

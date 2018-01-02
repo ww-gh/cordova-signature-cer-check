@@ -1,6 +1,6 @@
 {
   "name": "cordova-signature-cer-check",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "自定义插件用于检测获取系统签名信息",
   "cordova": {
     "id": "cordova-signature-cer-check",

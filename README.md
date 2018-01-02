@@ -1,4 +1,4 @@
-# cordova-signature-cer-check V0.0.1
+# cordova-signature-cer-check V1.0.0
 自定义插件用于检测获取系统签名信息
 
 ## 1、添加插件方式：

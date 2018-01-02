@@ -69,7 +69,7 @@ public class SignatureCerCheck extends CordovaPlugin {
     }
 
     private void checkSignature(CallbackContext callbackContext) {
-        if (authHashValue() || authSHA1()) {
+        if (authHashValue() && authSHA1()) {
             callbackContext.success("true");
         } else {
             callbackContext.success("false");

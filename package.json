@@ -1,0 +1,25 @@
+{
+  "name": "cordova-signature-cer-check",
+  "version": "0.0.1",
+  "description": "自定义插件用于检测获取系统签名信息",
+  "cordova": {
+    "id": "cordova-signature-cer-check",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "wangwenxy@163.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ww-gh/cordova-signature-cer-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ww-gh/cordova-signature-cer-check/issues"
+  },
+  "homepage": "https://github.com/ww-gh/cordova-signature-cer-check#readme"
+}
